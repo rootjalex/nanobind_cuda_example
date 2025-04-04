@@ -3,15 +3,7 @@
 #include <nanobind/nanobind.h>
 #include <nanobind/ndarray.h>
 
-// #include "cuda_utils.h"
-
-inline void cudaFreeWrapper(void* ptr) noexcept {
-    // cudaError_t error = cudaFree(ptr);
-    // if (error != cudaSuccess) {
-    //     throw std::runtime_error(cudaGetErrorString(error));
-    // }
-    // cudaFree(ptr);
-}
+#include "cuda_utils.h"
 
 namespace nb = nanobind;
 
