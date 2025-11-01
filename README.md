@@ -1,3 +1,9 @@
+# Deprecated
+
+**Deprecation Notice:** This repository is no longer maintained.  
+For the latest GPU-enabled nanobind examples, please see:  
+[https://github.com/rootjalex/nanobind_gpu_example](https://github.com/rootjalex/nanobind_gpu_example)
+
 nanobind_cuda_example
 ================
 
